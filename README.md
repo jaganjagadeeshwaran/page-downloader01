@@ -1,2 +1,81 @@
 # page-downloader01
-This is my page-downloader
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>try</title>
+</head>
+<style>
+  .all{
+    background-color: aqua;
+    height: 800px;
+    width: 1000px;
+
+
+    
+  }
+  .dropdown{
+    background-color: blueviolet;
+    height: 70px;
+    width: 150px;
+    color: white;
+    padding: 50px 50px ;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 5px solid white;
+    
+    position: relative;
+    display: inline block;
+    
+}
+.dropdown:hover{
+  border-radius: 50%;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  z-index: 1;
+
+}
+.dropdown:hover .dropdown-content{
+  display:block;
+  
+}
+.downlode{
+  background-color: rgb(241, 71, 114);
+  text-align: center;
+  border: 3px solid red;
+  text-shadow: 5px;
+  border-radius: 2px;
+  padding: 3px 10px;
+}
+
+</style>
+<body>
+</br>
+  <center>
+  <div class="all">
+  <div class="dropdown">
+    <img src="C:\Users\Admin\Pictures\wallpaper\NATURE/b4ea1a75-65a7-4896-97dd-78201fa33e4a.jpeg" alt="network issue" height="70px" width="150px">
+    <div class="dropdown-content">
+      <img src="C:\Users\Admin\Pictures\wallpaper\NATURE/b4ea1a75-65a7-4896-97dd-78201fa33e4a.jpeg" alt="network issue" height="250px" width="500px">
+      <div class="downlode">
+        DOWNLODE
+      </div>
+      </div>
+      </div>
+    </center>
+    <script>
+      var image_down =document.getElementsByid( 'dropdown');
+      var image_down_dow=document.getElementsByid('dropown-count')
+      dropdown.addeventlister('click', () => {
+        dropown-count.classlist.toggle('active');
+      })
+
+    </script>
+  </div>
+</body>
+</html>
